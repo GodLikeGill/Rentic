@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:title="All Listings"
+        android:id="@+id/all_listings"
+        android:icon="@drawable/list_dashed_24"/>
+    <item android:title="My Listings"
+        android:id="@+id/my_listings"
+        android:icon="@drawable/list_numbered_24"/>
+</menu>

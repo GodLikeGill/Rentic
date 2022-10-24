@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "754144956430",
+    "project_id": "rentic-f2d7e",
+    "storage_bucket": "rentic-f2d7e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:754144956430:android:357630d4aeed0f12886c5f",
+        "android_client_info": {
+          "package_name": "com.group9.project"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "754144956430-ce6444h21eu5gsqfsr7dsb15ke6p55ce.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCUmT6vxkQW8Z1pBiNHMyiGuVL_wT0jJa4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "754144956430-ce6444h21eu5gsqfsr7dsb15ke6p55ce.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="8dp"
+    tools:context=".activities.ListingDetailsActivity">
+
+    <TextView
+        android:id="@+id/tvAddListing"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:fontFamily="@font/dosis_semibold"
+        android:text="Listing Detail"
+        android:textColor="@color/black"
+        android:textSize="30sp" />
+
+    <View
+        android:id="@+id/view_listing_detail_top"
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:layout_marginTop="4dp"
+        android:background="@color/black" />
+
+    <ImageView
+        android:id="@+id/ivListDetailsImage"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:layout_marginTop="8dp"
+        android:background="#E1E1E1"
+        android:scaleType="fitXY" />
+
+    <TextView
+        android:id="@+id/tvListTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:fontFamily="@font/dosis"
+        android:gravity="center_horizontal"
+        android:textColor="@color/black"
+        android:textSize="24sp"
+        tools:text="List Title" />
+
+    <TextView
+        android:id="@+id/tvListDescription"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/dosis"
+        android:padding="4dp"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        tools:text="This is list details description." />
+
+    <TextView
+        android:id="@+id/tvListAddress"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/dosis"
+        android:padding="4dp"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        tools:text="List Address" />
+
+    <TextView
+        android:id="@+id/tvListPrice"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/dosis_semibold"
+        android:padding="4dp"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        tools:text="$100" />
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btnListRent"
+            style="@style/Button.Transparent"
+            android:layout_width="340dp"
+            android:layout_height="45dp"
+            android:layout_gravity=""
+            android:background="@drawable/rect_blue"
+            android:fontFamily="@font/dosis"
+            android:text="Rent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</LinearLayout>
